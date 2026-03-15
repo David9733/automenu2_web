@@ -12,8 +12,8 @@
 | **개발 기간** | 2025.01 ~ 2025.01.02 |
 | **프로젝트 유형** | 개인 프로젝트 |
 | **핵심 기술** | Next.js 15 · TypeScript · Tailwind CSS v4 · Framer Motion |
-| **배포 링크** | [(입력 필요)](https://automenu-web.vercel.app/) |
-| **앱 다운로드** | [Google Play](https://play.google.com/store/apps/details?id=com.automenu2&hl=ko) |
+| **배포 링크** | [(소개페이지 바로가기)](https://automenu-web.vercel.app/) |
+| **앱 다운로드** | [Google Play Store](https://play.google.com/store/apps/details?id=com.automenu2&hl=ko) |
 
 ---
 
