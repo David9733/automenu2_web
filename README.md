@@ -210,3 +210,4 @@ npm run start
 - [ ] App Store 배포 완료 후 다운로드 버튼 활성화
 - [ ] (추가 예정)
 
+![Image](https://github.com/user-attachments/assets/afd3e7da-54d0-44ec-a25d-29767c2a9d46)
