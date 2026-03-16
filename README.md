@@ -13,7 +13,7 @@
 |------|------|
 | **개발 기간** | 2025.01 ~ 2025.01.02 |
 | **프로젝트 유형** | 개인 프로젝트 |
-| **핵심 기술** | Next.js, TypeScript, Tailwind CSS, Framer Motion |
+| **핵심 기술** | Next.js, React, TypeScript, Tailwind CSS, Framer Motion |
 | **배포 링크** | [바로가기](https://automenu-web.vercel.app/) |
 | **앱 다운로드** | [Google Play Store](https://play.google.com/store/apps/details?id=com.automenu2&hl=ko) |
 
@@ -141,11 +141,13 @@ Tailwind CSS의 `dark:` 변형을 전체 컴포넌트에 적용하여 시스템 
 
 | 기술 | 버전 | 선택 이유 |
 |------|------|-----------|
-| **Next.js** | 15 | 파일 기반 라우팅으로 `/privacy` 페이지를 별도 설정 없이 추가 가능. SEO에 필요한 메타태그 관리가 용이 |
+| **Next.js** | 16 | 파일 기반 라우팅으로 `/privacy` 페이지를 별도 설정 없이 추가 가능. SEO에 필요한 메타태그 관리가 용이 |
 | **TypeScript** | 5.x | 컴포넌트 props 타입 오류를 빌드 단계에서 사전 차단 |
 | **Tailwind CSS** | v4 | 유틸리티 클래스로 디자인 시스템을 빠르게 구성. 다크모드 전환을 `dark:` 클래스 하나로 처리 가능 |
 | **Framer Motion** | 12.x | 선언형 API로 스크롤 트리거 애니메이션을 간결하게 구현 |
 | **React Icons** | 5.x | 별도 SVG 파일 없이 아이콘을 컴포넌트로 인라인 삽입 |
+| **React** | 19.x | UI 컴포넌트 렌더링 라이브러리 |
+| **React Compiler** | 1.0.0 | 자동 메모이제이션으로 컴포넌트 렌더링 최적화 |
 
 ---
 
