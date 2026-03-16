@@ -376,23 +376,7 @@ src/
 >
 ```
 
-### 5. 반응형 레이아웃 (모바일 우선)
-
-모든 그리드는 모바일 1열부터 시작해 브레이크포인트에 따라 확장됩니다.
-
-- **Features:** 1열(기본) → 2열(`md`) → 3열(`lg`)
-- **Screenshots:** 2열(기본) → 3열(`sm`) → 5열(`lg`), 9:16 비율 고정
-
-```tsx
-// src/components/Features.tsx
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-// src/components/Screenshots.tsx
-<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-  <div className="relative aspect-[9/16] ...">  {/* 9:16 비율 고정 */}
-```
-
-### 6. React Compiler 자동 메모이제이션
+### 5. React Compiler 자동 메모이제이션
 
 `next.config.ts`에서 React Compiler를 활성화하여 컴포넌트 렌더링을 자동 최적화합니다.
 
@@ -405,6 +389,18 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
 };
 ```
+
+---
+
+## 🎬 시연 영상
+
+**기능 알아보기 스크롤 이동 · 캡처샷 모달 · 개인정보방침 페이지 이동**
+
+![기능 알아보기 스크롤 이동 · 캡처샷 모달 · 개인정보방침 페이지 이동](https://github.com/user-attachments/assets/3d36b0d9-6ba7-49b7-b282-92752cbcb8d9)
+
+**소개 페이지 → 구글 스토어 이동**
+
+![소개 페이지에서 구글 스토어로 이동](https://github.com/user-attachments/assets/afd3e7da-54d0-44ec-a25d-29767c2a9d46)
 
 ---
 
@@ -426,11 +422,13 @@ const nextConfig: NextConfig = {
 
 > 실제 개발 중 마주친 문제와 해결 과정을 기록합니다.
 
-### (입력 필요 — 예시 형식)
+### 모바일 레이아웃 깨짐
 
-**문제:** (겪은 문제 상황)
-**원인:** (파악한 원인)
-**해결:** (적용한 해결책)
+**문제:** 웹 브라우저에서 개발 후 모바일로 확인했을 때 그리드 레이아웃이 화면을 벗어나거나 카드가 너무 작게 표시됨
+**원인:** 데스크톱 기준(3열 그리드)으로만 설계하여 좁은 화면 대응이 없었음
+**해결:** Tailwind 브레이크포인트로 열 수를 조정
+- Features: 1열(기본) → 2열(`md`) → 3열(`lg`)
+- Screenshots: 2열(기본) → 3열(`sm`) → 5열(`lg`), `aspect-[9/16]`으로 비율 고정
 
 ---
 
