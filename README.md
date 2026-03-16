@@ -1,4 +1,4 @@
-<img width="600"  alt="Image" src="https://github.com/user-attachments/assets/a4c1cd3a-2832-4aa4-b390-eebf62eb8fbb" />
+<img width="700"  alt="Image" src="https://github.com/user-attachments/assets/a4c1cd3a-2832-4aa4-b390-eebf62eb8fbb" />
 
 # 이따가 뭐 먹지? 소개 페이지 
 
