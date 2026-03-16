@@ -467,6 +467,11 @@ npm run build
 npm run start
 ```
 
+## 🌐 배포
+
+GitHub 저장소를 Vercel에 연동하여 main 브랜치 push 시 자동 배포되도록 구성했습니다.
+
+- **배포 링크**: [https://automenu-web.vercel.app/](https://automenu-web.vercel.app/)
 
 ---
 
