@@ -461,7 +461,6 @@ npm install
 
 # 개발 서버 실행
 npm run dev
-# → http://localhost:3000
 
 # 프로덕션 빌드
 npm run build
