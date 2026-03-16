@@ -413,6 +413,13 @@ const nextConfig: NextConfig = {
 | **React** | 19.2.3 | UI 컴포넌트 렌더링 라이브러리 |
 | **React Compiler** | 1.0.0 | 자동 메모이제이션으로 컴포넌트 렌더링 최적화 |
 
+![Next.js](https://img.shields.io/badge/Next.js-16.1.1-black?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19.2.3-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.18-06B6D4?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.26.1-0055FF?logo=framer&logoColor=white)
+![React Icons](https://img.shields.io/badge/React_Icons-5.5.0-E91E63?logo=react&logoColor=white)
+
 ---
 
 ## 🔧 트러블슈팅 / 개선 경험
