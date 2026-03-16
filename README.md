@@ -390,8 +390,6 @@ const nextConfig: NextConfig = {
 };
 ```
 
----
-
 ## 🎬 시연 영상
 
 **주요 기능 흐름**
