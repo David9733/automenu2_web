@@ -213,3 +213,6 @@ npm run start
 - [ ] (추가 예정)
 
 ![Image](https://github.com/user-attachments/assets/afd3e7da-54d0-44ec-a25d-29767c2a9d46)
+소개 페이지에서 구글 스토어로 가는 장면
+
+
