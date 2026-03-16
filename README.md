@@ -1,6 +1,6 @@
 # 이따가 뭐 먹지? 소개 페이지 
 
-음식 추천 앱 **"이따가 뭐 먹지?"** 의 소개페이지입니다.
+음식 추천 앱 **"이따가 뭐 먹지?"** 의 소개페이지입니다.<br>
 앱을 소개받고 Google Play에서 바로 다운로드할 수 있도록 설계했습니다.
 
 ---
@@ -12,7 +12,7 @@
 | **개발 기간** | 2025.01 ~ 2025.01.02 |
 | **프로젝트 유형** | 개인 프로젝트 |
 | **핵심 기술** | Next.js 15 · TypeScript · Tailwind CSS v4 · Framer Motion |
-| **배포 링크** | [(소개페이지 바로가기)](https://automenu-web.vercel.app/) |
+| **배포 링크** | [(바로가기)](https://automenu-web.vercel.app/) |
 | **앱 다운로드** | [Google Play Store](https://play.google.com/store/apps/details?id=com.automenu2&hl=ko) |
 
 ---
