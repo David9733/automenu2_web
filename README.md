@@ -394,13 +394,13 @@ const nextConfig: NextConfig = {
 
 ## 🎬 시연 영상
 
-**기능 알아보기 스크롤 이동 · 캡처샷 모달 · 개인정보방침 페이지 이동**
+**주요 기능 흐름**
 
-![기능 알아보기 스크롤 이동 · 캡처샷 모달 · 개인정보방침 페이지 이동](https://github.com/user-attachments/assets/3d36b0d9-6ba7-49b7-b282-92752cbcb8d9)
+![주요 기능 흐름](https://github.com/user-attachments/assets/3d36b0d9-6ba7-49b7-b282-92752cbcb8d9)
 
-**소개 페이지 → 구글 스토어 이동**
+**구글 스토어 연결**
 
-![소개 페이지에서 구글 스토어로 이동](https://github.com/user-attachments/assets/afd3e7da-54d0-44ec-a25d-29767c2a9d46)
+![구글 스토어 연결](https://github.com/user-attachments/assets/afd3e7da-54d0-44ec-a25d-29767c2a9d46)
 
 ---
 
