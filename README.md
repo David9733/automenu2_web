@@ -28,6 +28,7 @@
 <details>
 <summary>프롬프트 전체 내용 보기</summary>
 
+```text
 - Context
 
  - Flutter 앱 "이따가 뭐 먹지"의 Next.js 랜딩페이지 + 개인정보처리방침 페이지 생성
@@ -275,6 +276,7 @@
  - Tailwind v4가 아닌 v3 기준으로 작성
 
  ---
+```
 
 </details>
 
