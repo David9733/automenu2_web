@@ -428,13 +428,13 @@ const nextConfig: NextConfig = {
 
 | 기술 | 버전 | 선택 이유 |
 |------|------|-----------|
-| **Next.js** | 16.1.1 | App Router 기반 서버 컴포넌트로 초기 HTML을 서버에서 렌더링하여 SEO에 유리<br>파일 기반 라우팅으로 `/privacy` 페이지를 별도 설정 없이 추가 가능<br>메타태그·JSON-LD 구조화 데이터를 `layout.tsx` 한 곳에서 일괄 관리 |
-| **TypeScript** | 5.9.3 | 컴포넌트 props 타입을 명시적으로 선언하여 빌드 단계에서 오류 사전 차단<br>컴포넌트 간 인터페이스를 명확히 정의하여 유지보수 용이 |
-| **Tailwind CSS** | 4.1.18 | 유틸리티 클래스로 별도 CSS 파일 없이 컴포넌트 단위 스타일 적용<br>반응형 브레이크포인트(`sm`/`md`/`lg`)를 클래스 prefix 하나로 처리<br>`dark:` 클래스만으로 다크모드 전환 지원 |
-| **Framer Motion** | 12.26.1 | `whileInView`로 뷰포트 진입 시 fade-in 애니메이션을 CSS 없이 선언형으로 구현<br>스크린샷 모달 등장·사라짐에도 동일한 API로 일관된 전환 효과 적용 |
-| **React Icons** | 5.5.0 | 수십 개 아이콘 라이브러리를 단일 패키지로 제공<br>별도 SVG 파일 관리 없이 컴포넌트로 인라인 삽입하여 트리쉐이킹으로 번들 크기 최소화 |
-| **React** | 19.2.3 | 컴포넌트 기반 UI 구성으로 Hero·Features·Screenshots 등 섹션별 독립 개발 및 재사용 가능<br>React 19에서 안정화된 React Compiler와 함께 사용하여 자동 최적화 적용 |
-| **React Compiler** | 1.0.0 | 수동 `useMemo`/`useCallback` 작성 없이 컴파일 단계에서 자동 메모이제이션 적용<br>코드 복잡도 증가 없이 렌더링 성능 확보 |
+| **Next.js** | 16.1.1 | App Router 기반 서버 컴포넌트로 초기 HTML을 서버에서 렌더링하여 SEO에 유리<br>메타태그·JSON-LD 구조화 데이터를 `layout.tsx` 한 곳에서 일괄 관리 |
+| **TypeScript** | 5.9.3 | 컴포넌트 props 타입을 명시적으로 선언하여 빌드 단계에서 오류 사전 차단 |
+| **Tailwind CSS** | 4.1.18 | 유틸리티 클래스로 별도 CSS 파일 없이 컴포넌트 단위 스타일 적용<br>`dark:` 클래스만으로 다크모드 전환 지원 |
+| **Framer Motion** | 12.26.1 | `whileInView`로 뷰포트 진입 시 fade-in 애니메이션을 CSS 없이 선언형으로 구현 |
+| **React Icons** | 5.5.0 | 별도 SVG 파일 관리 없이 컴포넌트로 인라인 삽입하여 트리쉐이킹으로 번들 크기 최소화 |
+| **React** | 19.2.3 | 컴포넌트 기반 UI 구성으로 Hero·Features·Screenshots 등 섹션별 독립 개발 및 재사용 가능 |
+| **React Compiler** | 1.0.0 | 수동 `useMemo`/`useCallback` 작성 없이 컴파일 단계에서 자동 메모이제이션 적용 |
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
