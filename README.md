@@ -434,7 +434,7 @@ const nextConfig: NextConfig = {
 
 ---
 
-## 🖥️ AI 활용 개발 방식 (AI-assisted Development)
+## 🖥️ AI 활용 개발 방식
 
 이 프로젝트는 AI 코딩 도구를 활용한 개발 workflow를 설계하고 반복적으로 개선하는 방식으로 진행했습니다.
 
