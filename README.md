@@ -433,7 +433,7 @@ const nextConfig: NextConfig = {
 | **Tailwind CSS** | 4.1.18 | 유틸리티 클래스로 별도 CSS 파일 없이 컴포넌트 단위 스타일 적용<br>`dark:` 클래스만으로 다크모드 전환 지원 |
 | **Framer Motion** | 12.26.1 | `whileInView`로 뷰포트 진입 시 fade-in 애니메이션을 CSS 없이 선언형으로 구현 |
 | **React Icons** | 5.5.0 | 별도 SVG 파일 관리 없이 컴포넌트로 인라인 삽입하여 트리쉐이킹으로 번들 크기 최소화 |
-| **React** | 19.2.3 | 컴포넌트 기반 UI 구성으로 Hero·Features·Screenshots 등 섹션별 독립 개발 및 재사용 가능 |
+| **React** | 19.2.3 | 컴포넌트 기반 UI 구성으로 섹션별 독립 개발 및 재사용 가능 |
 | **React Compiler** | 1.0.0 | 수동 `useMemo`/`useCallback` 작성 없이 컴파일 단계에서 자동 메모이제이션 적용 |
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
@@ -449,9 +449,9 @@ const nextConfig: NextConfig = {
 
 ### 모바일 레이아웃 깨짐
 
-**문제:** 웹 브라우저에서 개발 후 모바일로 확인했을 때 그리드 레이아웃이 화면을 벗어나거나 카드가 너무 작게 표시됨
-**원인:** 데스크톱 기준(3열 그리드)으로만 설계하여 좁은 화면 대응이 없었음
-**해결:** Tailwind 브레이크포인트로 열 수를 조정
+**문제:** 웹 브라우저에서 개발 후 모바일로 확인했을 때 그리드 레이아웃이 화면을 벗어나거나 카드가 너무 작게 표시됨<br>
+**원인:** 데스크톱 기준(3열 그리드)으로만 설계하여 좁은 화면 대응이 없었음<br>
+**해결:** Tailwind 브레이크포인트로 열 수를 조정<br>
 - Features: 1열(기본) → 2열(`md`) → 3열(`lg`)
 - Screenshots: 2열(기본) → 3열(`sm`) → 5열(`lg`), `aspect-[9/16]`으로 비율 고정
 
