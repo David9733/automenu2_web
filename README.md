@@ -424,8 +424,6 @@ const nextConfig: NextConfig = {
 
 ## 🔧 트러블슈팅 / 개선 경험
 
-> 실제 개발 중 마주친 문제와 해결 과정을 기록합니다.
-
 ### 모바일 레이아웃 깨짐
 
 **문제:** 웹 브라우저에서 개발 후 모바일로 확인했을 때 그리드 레이아웃이 화면을 벗어나거나 카드가 너무 작게 표시됨
@@ -469,22 +467,12 @@ npm run build
 npm run start
 ```
 
-**Node.js 버전:** 20.x 이상
 
 ---
 
-## 배포
-
-- **배포 플랫폼:** Vercel
-- **배포 URL:** [https://automenu-web.vercel.app/](https://automenu-web.vercel.app/)
-- **앱 다운로드:** [Google Play Store](https://play.google.com/store/apps/details?id=com.automenu2&hl=ko)
-- **App Store:** 준비 중
-
----
 
 ## 향후 개선 계획
 
 - [ ] App Store 배포 완료 후 다운로드 버튼 활성화
-- [ ] (추가 예정)
 
 
