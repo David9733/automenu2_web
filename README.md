@@ -480,9 +480,4 @@ npm run start
 - [ ] App Store 배포 완료 후 다운로드 버튼 활성화
 - [ ] (추가 예정)
 
-![Image](https://github.com/user-attachments/assets/afd3e7da-54d0-44ec-a25d-29767c2a9d46)
-소개 페이지에서 구글 스토어로 가는 장면
-
-![Image](https://github.com/user-attachments/assets/3d36b0d9-6ba7-49b7-b282-92752cbcb8d9)
-기능알아보기누르면 자동으로 스크롤 내려감 + 캡처샷 누르면 모달창 + 정보방침 페이지 이동
 
