@@ -376,6 +376,63 @@ src/
 >
 ```
 
+### 5. 다크/라이트 모드
+
+Tailwind CSS `dark:` 클래스와 `globals.css`의 CSS 변수를 조합하여 시스템 설정에 자동 연동됩니다.
+
+- `@media (prefers-color-scheme: dark)` 에서 CSS 변수(`--background`, `--foreground`)를 재정의
+- 별도 JS 없이 CSS만으로 처리
+- 커스텀 스크롤바도 동일 파일에서 오렌지 컬러로 스타일링
+
+```css
+/* src/app/globals.css */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF6B35;
+  border-radius: 5px;
+}
+```
+
+```tsx
+// 컴포넌트에서 dark: 클래스로 적용
+className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+```
+
+### 6. 반응형 레이아웃 (모바일 우선)
+
+모든 그리드는 모바일 1열부터 시작해 브레이크포인트에 따라 확장됩니다.
+
+- **Features:** 1열(기본) → 2열(`md`) → 3열(`lg`)
+- **Screenshots:** 2열(기본) → 3열(`sm`) → 5열(`lg`), 9:16 비율 고정
+
+```tsx
+// src/components/Features.tsx
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+// src/components/Screenshots.tsx
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+  <div className="relative aspect-[9/16] ...">  {/* 9:16 비율 고정 */}
+```
+
+### 7. React Compiler 자동 메모이제이션
+
+`next.config.ts`에서 React Compiler를 활성화하여 컴포넌트 렌더링을 자동 최적화합니다.
+
+- 수동 `useMemo` / `useCallback` 없이 컴파일러가 자동으로 메모이제이션 적용
+- `babel-plugin-react-compiler` (1.0.0) 를 devDependency로 추가
+
+```ts
+// next.config.ts
+const nextConfig: NextConfig = {
+  reactCompiler: true,
+};
+```
 
 ---
 
@@ -438,14 +495,14 @@ npm run build
 npm run start
 ```
 
-**Node.js 버전:** (입력 필요 — 예: 20.x 이상)
+**Node.js 버전:** 20.x 이상
 
 ---
 
 ## 배포
 
-- **배포 플랫폼:** (입력 필요 — 예: Vercel)
-- **배포 URL:** [(입력 필요)](https://example.com)
+- **배포 플랫폼:** Vercel
+- **배포 URL:** [https://automenu-web.vercel.app/](https://automenu-web.vercel.app/)
 - **앱 다운로드:** [Google Play Store](https://play.google.com/store/apps/details?id=com.automenu2&hl=ko)
 - **App Store:** 준비 중
 
