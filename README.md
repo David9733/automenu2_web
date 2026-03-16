@@ -376,35 +376,7 @@ src/
 >
 ```
 
-### 5. 다크/라이트 모드
-
-Tailwind CSS `dark:` 클래스와 `globals.css`의 CSS 변수를 조합하여 시스템 설정에 자동 연동됩니다.
-
-- `@media (prefers-color-scheme: dark)` 에서 CSS 변수(`--background`, `--foreground`)를 재정의
-- 별도 JS 없이 CSS만으로 처리
-- 커스텀 스크롤바도 동일 파일에서 오렌지 컬러로 스타일링
-
-```css
-/* src/app/globals.css */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-::-webkit-scrollbar-thumb {
-  background: #FF6B35;
-  border-radius: 5px;
-}
-```
-
-```tsx
-// 컴포넌트에서 dark: 클래스로 적용
-className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
-```
-
-### 6. 반응형 레이아웃 (모바일 우선)
+### 5. 반응형 레이아웃 (모바일 우선)
 
 모든 그리드는 모바일 1열부터 시작해 브레이크포인트에 따라 확장됩니다.
 
@@ -420,7 +392,7 @@ className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
   <div className="relative aspect-[9/16] ...">  {/* 9:16 비율 고정 */}
 ```
 
-### 7. React Compiler 자동 메모이제이션
+### 6. React Compiler 자동 메모이제이션
 
 `next.config.ts`에서 React Compiler를 활성화하여 컴포넌트 렌더링을 자동 최적화합니다.
 
