@@ -343,7 +343,7 @@ src/
 
 ### 3. SEO 구조화 데이터 삽입
 
-`layout.tsx`에서 JSON-LD 형태의 Schema.org MobileApplication 구조화 데이터를 구성했습니다.
+`layout.tsx`에서 JSON-LD 형태의 Schema.org MobileApplication 구조화 데이터를 구성했습니다.<br>
 검색엔진이 앱 정보를 구조화된 형태로 인식할 수 있도록 설계했습니다.
 
 ```tsx
