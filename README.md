@@ -25,8 +25,7 @@
 
 **나온 프롬프트 결과값(ex)**<br>
 이 프롬프트를 기반으로 기능 구현을 시작하고, 이후 AI 코딩 도구(cursor)를 활용하여 개발을 진행했습니다.
-<details>
-<summary>프롬프트 전체 내용 보기</summary>
+<details><summary>프롬프트 전체 내용 보기</summary>
 
 ```text
 - Context
