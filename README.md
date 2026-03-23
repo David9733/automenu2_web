@@ -11,7 +11,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| **개발 기간** | 2025.01 ~ 2025.02 |
+| **개발 기간** | 2026.01 ~ 2026.02 |
 | **프로젝트 유형** | 개인 프로젝트 |
 | **핵심 기술** | Next.js, React, TypeScript, Tailwind CSS, Framer Motion |
 | **배포 링크** | [바로가기](https://automenu-web.vercel.app/) |
